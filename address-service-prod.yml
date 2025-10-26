@@ -1,0 +1,15 @@
+server:
+  port: 1122
+
+spring:
+  application:
+    name: ADDRESS-SERVICE
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@prod-db:1521/orclpdb
+    username: prod_address
+    password: ProdAddr@123
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
