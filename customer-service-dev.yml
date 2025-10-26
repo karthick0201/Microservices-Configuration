@@ -25,3 +25,4 @@ microservice:
     name: ADDRESS-SERVICE
 
 message: Customerserice - Dev Config Loaded from Config Server
+testmsg: Testing actuators modifing the msg from git
