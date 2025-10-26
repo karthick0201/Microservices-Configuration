@@ -10,5 +10,4 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
 
-application:
-  name: Service registry Info from config server...
+message: Service Registry Config Loaded from Config Server
