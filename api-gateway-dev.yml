@@ -17,3 +17,5 @@ spring:
           uri: lb://ADDRESS-SERVICE
           predicates:
             - Path=/api/address/**
+
+message: APIGateway - Dev Config Loaded from Config Server
