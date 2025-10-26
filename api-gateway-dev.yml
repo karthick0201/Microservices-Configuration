@@ -21,6 +21,6 @@ spring:
         - id: CBI-DISCOVERY
           uri: http://localhost:8761
           predicates:
-            - Path=/**
+            - Path=/eureka/**
 
 message: APIGateway - Dev Config Loaded from Config Server
